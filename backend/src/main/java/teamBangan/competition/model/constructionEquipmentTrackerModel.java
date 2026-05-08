@@ -1,5 +1,4 @@
-
-package teamBangan.competition.model;
+package teamBangan.competition.model; // Just the folder name
 
 import jakarta.persistence.*;
 
