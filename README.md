@@ -3,6 +3,9 @@ Word problem statement:
 A construction firm needs to track heavy equipment locations. 
 The core modules include Equipment Logging and Site Assignment. The twist is using a Map API (or static map) to visualize where a machine is, with an audit log that records who "checked out" the keys.
 
+
+
+
 1. Project Overview
 •	System Name: EquipTrack Pro
 •	Description: A professional-grade asset management platform designed to monitor heavy machinery locations and secure key handovers in real-time.
