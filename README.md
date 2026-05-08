@@ -118,3 +118,12 @@ REPORTS
 SETTINGS
 <img width="1916" height="973" alt="686508458_27222725957319693_7336342250006521163_n" src="https://github.com/user-attachments/assets/b73c0720-41a2-4516-995e-e91381f79246" />
 
+
+
+
+DATABASE ARCHITECTURE:
+<img width="1024" height="559" alt="abb65cad-d55b-47f2-a612-4ea3bf07484e" src="https://github.com/user-attachments/assets/bdca0f05-2ad9-4718-b971-41d3a20a0ef1" />
+
+
+
+
