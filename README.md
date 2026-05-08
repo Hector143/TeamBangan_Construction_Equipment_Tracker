@@ -1,8 +1,71 @@
 # TeamBangan_Construction_Equipment_Tracker
-PROJECT DOCUMENTATION:
+Word problem statement: 
+A construction firm needs to track heavy equipment locations. 
+The core modules include Equipment Logging and Site Assignment. The twist is using a Map API (or static map) to visualize where a machine is, with an audit log that records who "checked out" the keys.
+
+1. Project Overview
+•	System Name: EquipTrack Pro
+•	Description: A professional-grade asset management platform designed to monitor heavy machinery locations and secure key handovers in real-time.
+•	Problem Solved: Eliminates guesswork in construction logistics by providing a centralized hub for equipment tracking and a tamper-proof audit trail for keys.
+•	Tech Stack: 
+o	Frontend: React.js, Tailwind CSS, Vite
+o	Backend: Java Spring Boot (MVC Pattern)
+o	Database: MySQL
+2. Team Members & Roles
+Team Bangan
+•	Raymark P. Pandita: Frontend Developer 
+•	Virche T. Tautoan: Backend Developer 
+•	Hector Josh G. Salera: QA / DevOps
+3. System Features
+•	Equipment Logging: CRUD functionality to register heavy machinery (Type, ID, Status).
+•	Site Assignment: Module to geocode construction sites and assign machinery to specific locations.
+•	Map Visualization: Powered by Leaflet.js, providing interactive markers that visualize machinery distribution.
+•	Key Checkout Audit Log: An immutable ledger recording "Who, What, and When" for every physical key transaction.
+4. Architecture & Database
+•	ERD: [Link to your Mermaid diagram or insert screenshot here]
+•	Table Relationships: * Users have a one-to-many relationship with AuditLogs.
+o	Equipment belongs to one Site at a time.
+o	AuditLogs link Users, Equipment, and Sites.
+•	Use Case: A Site Manager logs in, selects a "Bulldozer," assigns it to "Site A," and the system automatically logs the key transfer and updates the map coordinates.
+5. Security Features
+•	RBAC Roles: * Admin: Full access to manage inventory,sites, and audit and view all logs.
+o	Staff: Permissions to perform key check-outs/ins and view the live map.
+•	Password Hashing: Implemented BCrypt for password hashing and secure REST communication.
+•	Session Management: [e.g., JWT (JSON Web Tokens) or Secure Cookies] for stateful authentication.
+•	Audit Log: Tracks User ID, Action (Checkout/Return), Equipment ID, and Timestamp (Immutable).
+6. API Integrations
+•	Leaflet.js API: Used for mapping and pin-point visualization of equipment. 
+•	OpenWeather API: Integrated to monitor site conditions before deploying sensitive machinery.
+
+7. How to Run the Project
+•	Prerequisites: Node.js (v18+), JDK 17+, MySQL.
+•	Installation Steps:
+1.	Clone repo: git clone https://github.com/Hector143/TeamBangan_Construction_Equipment_Tracker.git
+2.	Install dependencies: npm install or composer install
+3.	Setup environment: cp .env.example .env
+•	Start Server: 
 
 
-UI Screenshots:
+Run Backend: ```bash cd backend ./mvnw spring-boot:run
+Run Frontend: ```bash
+cd frontend 
+npm install
+npm run dev
+
+8. Git & Commit History
+•	GitHub Repo: [Link]
+•	Workflow: Workflow: We followed a Feature Branching workflow (e.g., feat/map, feat/auth) ensuring the main branch remained stable and deployment-ready at all times.
+9. Known Limitations / Notes
+•	GPS Updates: Locations are currently site-based manual geocodes; future builds will include live GPS hardware tracking. 
+•	Scalability: The architecture is built to support multi-site operations with thousands of assets.
+10. AI Utilization & System Integration
+We leveraged AI to accelerate development and ensure high-quality code across the stack:
+•	Frontend-Backend Bridge: Used AI to generate TypeScript interfaces based on Java models for type-safe API consumption.
+•	Logic Optimization: AI helped optimize SQL queries for the Audit Log to prevent data redundancy and improved the responsiveness of the Tailwind layouts.
+•	Git Management: AI was instrumental in resolving "divergent branch" errors and managing complex Git rebases.
+
+
+FULL SCREENSHOTS OF THE SYSTEM:
 LANDING PAGE
 <img width="1898" height="991" alt="684978688_981825174238874_8798687709488648499_n" src="https://github.com/user-attachments/assets/39ff5067-a21e-48f5-bc02-38d237a1f11c" />
 
