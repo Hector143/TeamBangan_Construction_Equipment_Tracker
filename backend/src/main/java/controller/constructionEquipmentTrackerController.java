@@ -20,6 +20,10 @@ public class constructionEquipmentTrackerController {
 
     @PostMapping
     public constructionEquipmentTrackerModel add(@RequestBody constructionEquipmentTrackerModel equipment) {
+        if (equipment == null) {
+            throw new IllegalArgumentException("equipment body is required");
+        }
         return repository.save(equipment);
     }
 }
+

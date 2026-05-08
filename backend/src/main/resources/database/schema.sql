@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS construction_tracker;
-USE construction_tracker;
+CREATE DATABASE IF NOT EXISTS constructionEquipmentTracker_db;
+USE constructionEquipmentTracker_db;
 
 -- 1. Users Table (for Authentication & RBAC)
 CREATE TABLE users (

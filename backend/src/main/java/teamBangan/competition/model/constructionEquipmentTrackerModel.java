@@ -9,8 +9,13 @@ public class constructionEquipmentTrackerModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "equipment_name")
     private String name;
+
+    @Column(name = "model_number")
     private String type;
+
+    @Column(name = "status")
     private String status;
 
     public constructionEquipmentTrackerModel() {}
