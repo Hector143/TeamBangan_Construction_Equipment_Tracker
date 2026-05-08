@@ -1,6 +1,6 @@
+package repository; // Just the folder name
 
-package repository;
-
+// You MUST import the model from the teamBangan path
 import teamBangan.competition.model.constructionEquipmentTrackerModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

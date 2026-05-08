@@ -1,4 +1,4 @@
-package teamBangan.competition.model; // Just the folder name
+package teamBangan.competition.model; // Matches your model package
 
 import jakarta.persistence.*;
 

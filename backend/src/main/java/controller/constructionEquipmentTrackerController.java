@@ -1,5 +1,6 @@
 package controller; // Just the folder name
 
+// Import both the model and the repository
 import teamBangan.competition.model.constructionEquipmentTrackerModel;
 import repository.constructionEquipmentTrackerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
