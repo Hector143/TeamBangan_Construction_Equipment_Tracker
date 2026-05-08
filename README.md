@@ -40,5 +40,13 @@ ADD NEW CREW MEMBER
 
 
 SITES
+<img width="1919" height="989" alt="690764872_1529716181907470_612009420421560383_n" src="https://github.com/user-attachments/assets/45537c87-15a0-4ef6-ae60-9e7480a41f61" />
+
+ADD NEW CONSTRUCTION SITE
+<img width="1919" height="978" alt="690651695_832492116581292_881744039246295255_n" src="https://github.com/user-attachments/assets/bb36616b-2618-4e88-9f8c-5ed38e4997ef" />
+
+
+
+
 REPORTS
 SETTINGS
