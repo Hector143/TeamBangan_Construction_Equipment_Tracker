@@ -47,6 +47,11 @@ ADD NEW CONSTRUCTION SITE
 
 
 
-
 REPORTS
+<img width="1919" height="997" alt="682774737_26718738081116554_1962620864322138145_n" src="https://github.com/user-attachments/assets/f21c3dc6-4247-4c98-a3cf-40994706fc0e" />
+
+
+
 SETTINGS
+<img width="1916" height="973" alt="686508458_27222725957319693_7336342250006521163_n" src="https://github.com/user-attachments/assets/b73c0720-41a2-4516-995e-e91381f79246" />
+
