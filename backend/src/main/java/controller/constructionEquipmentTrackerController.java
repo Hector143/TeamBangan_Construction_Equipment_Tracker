@@ -1,6 +1,6 @@
-package teamBangan.competition.controller; // Just the folder name
+package controller; // Just the folder name
 
-import model.constructionEquipmentTrackerModel;
+import teamBangan.competition.model.constructionEquipmentTrackerModel;
 import repository.constructionEquipmentTrackerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
