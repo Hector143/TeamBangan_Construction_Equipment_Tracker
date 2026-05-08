@@ -3,7 +3,9 @@ package teamBangan.competition.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "equipment")
+@Table(name = "users")
+
+
 public class constructionEquipmentTrackerModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
