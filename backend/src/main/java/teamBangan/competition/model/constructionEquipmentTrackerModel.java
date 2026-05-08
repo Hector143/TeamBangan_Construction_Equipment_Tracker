@@ -1,4 +1,4 @@
-package teamBangan.competition.model; // Matches your model package
+package teamBangan.competition.model;
 
 import jakarta.persistence.*;
 
